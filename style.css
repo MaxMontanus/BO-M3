@@ -4,11 +4,11 @@
 }
 
 body{
-    background-color: #484848;
+    background-color: rgb(138, 241, 138);
 }
 
 header{
-    background-color: black;
+    background-color: #484848;
     padding-top: 4rem;
     border-radius: 2rem;
     margin-top: 1rem;
@@ -16,10 +16,27 @@ header{
     margin-right: 1rem;
     color: white;
     text-align: left;
+    outline: 2rem black;
 }
 
 h1{
     color: white;
     text-align: left;
     text-indent: 4rem;
+    margin-left: 40%;
+    margin-right: 60%;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.licht{
+    width: 500px;
+    height: 200px;
+    background-color: #484848;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    outline: auto;
+
+    
 }
