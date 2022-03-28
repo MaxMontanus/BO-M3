@@ -4,7 +4,8 @@
 }
 
 body{
-    background-color: rgb(138, 241, 138);
+    background-color: #00894D;
+    
 }
 
 header{
@@ -16,11 +17,11 @@ header{
     margin-right: 1rem;
     color: white;
     text-align: left;
-    outline: 2rem black;
+    outline: auto black;
 }
 
 h1{
-    color: white;
+    color: #00894D;
     text-align: left;
     text-indent: 4rem;
     margin-left: 40%;
@@ -33,10 +34,36 @@ h1{
     width: 500px;
     height: 200px;
     background-color: #484848;
-    margin-left: 2rem;
-    margin-top: 2rem;
+    margin-left: 8rem;
+    margin-top: 4rem;
     border-radius: 2rem;
-    outline: auto;
+    outline: auto black;
+    display: flex;
+}
 
-    
+.verwarming{
+    width: 500px;
+    height: 200px;
+    background-color: #484848;
+    margin-left: 8rem;
+    margin-top: 5rem;
+    border-radius: 2rem;
+    outline: auto black;
+    display: flex;
+}
+
+.weer{
+    margin-left: 16rem;
+    margin-top: 4rem;
+    border-radius: 2rem;
+    outline: auto black;
+    display: flex;
+}
+
+.zon{
+    margin-left: 20rem;
+    margin-top: 5rem;
+    border-radius: 2rem;
+    outline: auto black;
+    display: flex;
 }
