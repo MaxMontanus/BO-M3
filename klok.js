@@ -1,11 +1,23 @@
-//tijd + datum
+function realtimeClock() {
 
-var today = new Date();
-var day = today.getDay();
-var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
-var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-var dateTime = date+' '+time;
- 
-document.getElementById("displayDateTime").innerHTML = dateTime + ' <br> Day :- ' + daylist[day];
+    var rtClock = new Date();
+
+    var hours = rtClock.getHours();
+    var minutes = rtClock.getMinutes();
+    var seconds = rtClock.getSeconds();
+
+    var amPm = ( hours < 12) ? "AM" : "PM";
+
+    hours = ( hours < 12) ? hours - 12 : hours;
+
+    hours = ("0" + hours).slice(-2);
+    minutes = ("0" + minutes).slice(-2);
+    seconds = ("0" + seconds).slice(-2);
+
+    document.getElementById('clock').innerHTML =
+        hours + "  :  " + minutes + "  :  " + seconds + " " + amPm;
+    var t = setTimeout(realtimeClock, 500);
+
+}
+
 
