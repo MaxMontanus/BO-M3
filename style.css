@@ -10,7 +10,7 @@
   position: fixed;
   height: 100%;
   width: 240px;
-  background: #0A2558;
+  background: #047900;
   transition: all 0.5s ease;
 }
 .sidebar.active{
@@ -50,10 +50,10 @@
   transition: all 0.4s ease;
 }
 .sidebar .nav-links li a.active{
-  background: #081D45;
+  background: #003000;
 }
 .sidebar .nav-links li a:hover{
-  background: #081D45;
+  background: #003000;
 }
 .sidebar .nav-links li i{
   min-width: 60px;
@@ -74,7 +74,7 @@
 }
 .home-section{
   position: relative;
-  background: #f5f5f5;
+  background: radial-gradient(rgb(116, 194, 116), rgb(89, 138, 89),rgb(148, 184, 146));
   min-height: 100vh;
   width: calc(100% - 240px);
   left: 240px;
